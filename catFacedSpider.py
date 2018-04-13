@@ -1,12 +1,12 @@
-# Sama Rahimian
-# Access, pull, clean, & store Facebook posts
+# Sama Rahimian, 0.1
+# Access, pull, clean, & store ??????? posts
 
 from urllib import request as request
 from bs4 import BeautifulSoup
 import nltk
 
 
-print("Araneus gemmoides (\"Cat-faced Spider\") :: For Facebook posts")
+print("Araneus gemmoides (\"Cat-faced Spider\") :: For ??????")
 
 
 # Pull website information

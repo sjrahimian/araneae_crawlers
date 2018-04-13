@@ -1,7 +1,9 @@
 # Sama Rahimian, v0.1
+#
 # a common house spider worldwide.
 # currently does: access (url given by user), pull information, & search (arg) if data contains desired element
 # future direction: clean/remove unwanted tags, and store user information in format choice
+#
 
 import requests
 from bs4 import BeautifulSoup

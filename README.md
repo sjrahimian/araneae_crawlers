@@ -1,13 +1,14 @@
 # Araneae Crawlers :spider:
 ### Python
 
-### House Spider
+A collection of my Spiders for the world wide web: extracting, formatting, storing, etc.
 
-A generic term for different spiders commonly found around human 
-dwellings
+### House Spider :house:
+A generic term for different spiders commonly found around the web (homes)
+###### *Chiracanthium inclusum (Yellow Sac spider) - generic
 
-### _Chiracanthium inclusum_ (Yellow Sac spider)
-####   - a common house spider worldwide -
+
+#### _Chiracanthium inclusum_ (Yellow Sac spider) #### - a common house spider worldwide -
 - [x] Currently does: access (url given by user), pull information, & 
 search 
 (arg) if data contains desired element
@@ -18,5 +19,3 @@ Takes in two arguments: file.py arg1 arg2
 * arg1 - word to check for
 * arg2 - url in the following format: "www.example.com/etc"
 
-###
-####
