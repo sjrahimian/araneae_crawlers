@@ -15,7 +15,6 @@ search
 - [ ] Future direction: clean/remove unwanted tags, and store user 
 information in format choice
 
-Takes in two arguments: file.py arg1 arg2
-* arg1 - word to check for
-* arg2 - url in the following format: "www.example.com/etc"
+Takes in two arguments from cmd line: file.py wordToFind URL
+ <tab> _Nb._ URL in the following format: "example.com/etc"
 

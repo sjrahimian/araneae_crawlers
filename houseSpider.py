@@ -15,9 +15,7 @@ print("Chiracanthium inclusum -- Yellow sac spider --\n\t\t For any HTML based w
 def magic():
 
     # Pull website information
-    # url = "http://www-rohan.sdsu.edu/~gawron/index.html"
-    # url = 'https://www.facebook.com/groups/508623379505116/permalink/589202604780526/'
-    url = "http://" + sys.argv[2]
+    url = "http://www." + sys.argv[2]
 
     response = requests.get(url)
     raw_data = response.content.decode('utf-8','ignore')
