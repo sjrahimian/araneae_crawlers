@@ -10,7 +10,7 @@ def createAddresses():
 	prefix = "129.100."
 
 	#list L of random IP addresses
-	size = random.randint(1,150)
+	size = random.randint(1,10)
 	print(f'Building {size} IP addresses.')
 
 	addresses = set()
@@ -22,15 +22,15 @@ def createAddresses():
 
 # Issue ping for each IP address then record as pass/fail
 def ping(addresses):
-	ping = "ping -c1 -w3"
-	end = "&> /dev/null"
+	ping = "ping -n 1 -w 3 "
+	lin = " &> /dev/null"
+	win = " 2> nul"
 	
 	success = 0
 	fail = 0
 	
 	for ip in addresses:
-		ans = cmd(ping + ip + end)
-		if ans == 1:
+		if cmd(ping + ip + lin) == 0:
 			success += 1
 		else:
 			fail += 1
@@ -42,16 +42,13 @@ def tally(s, f):
 	print("~~Tallying responses~~\n")
 	percentPass = (s / (s + f)) * 100
 	print(f"Success: {s} | {percentPass:.2f}%\nFail: {f} | {100 - percentPass:.2f}%")
-	print(f"Total IP Addresses checked: {s + f}\n\n")
-	
-	print()
-	
+	print(f"Total IP Addresses checked: {s + f}\n\n")	
 	print("~~Tally completed~~\n")
 
 
 
 def main():
-	print("Miturgidae (\"Prowling Spider\")\n")
+	print("Miturgidae (\"Prowling spider\")\n")
 	ipAddresses = createAddresses()
 	print("Random addresses built.\n")
 
