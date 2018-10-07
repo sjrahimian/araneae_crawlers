@@ -5,9 +5,9 @@ A collection of my Spiders for the world wide web: extracting, formatting, stori
 
 ### House Spider :house:
 A generic term for different spiders commonly found around the web (homes)
-###### *Chiracanthium inclusum (Yellow Sac spider) - generic
-
-
+###### * Chiracanthium inclusum (Yellow Sac spider) - for any good ol' page
+###### * Araneus gemmoides (Cat-faced spider) - 
+___________________________________________
 #### _Chiracanthium inclusum_ (Yellow Sac spider) #### - a common house spider worldwide -
 - [x] Currently does: access (url given by user), pull information, & 
 search 
@@ -15,6 +15,8 @@ search
 - [ ] Future direction: clean/remove unwanted tags, and store user 
 information in format choice
 
-Takes in two arguments from cmd line: file.py wordToFind URL<br>
- _Nb._ URL in the following format: "example.com/etc"
-
+Takes in two arguments from cmd line: file.py wordToFind desiredURL
+_Nb._ URL in the following format: "example.com/etc"
+----------
+#### _Araneus gemmoides_ (Cat-faced spider) #### - "Have you seen my eight-legged cat? He's a special kitty." -
+Originally I was hoping this would get facebook posts, but I'm to lazy to make the whole token thing so gotta do soemthing else with em

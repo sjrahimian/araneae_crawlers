@@ -10,7 +10,6 @@ print("Araneus gemmoides (\"Cat-faced Spider\") :: For ??????")
 
 
 # Pull website information
-# url = "http://www-rohan.sdsu.edu/~gawron/index.html"
 url = 'https://www.facebook.com/groups/508623379505116/permalink/589202604780526/'
 
 response = request.urlopen(url)
