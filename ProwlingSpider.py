@@ -48,7 +48,7 @@ def tally(s, f):
 
 
 def main():
-	print("Miturgidae (\"Prowling spider\")\n")
+	print("Zora - Miturgidae (\"Prowling spider\")\n")
 	ipAddresses = createAddresses()
 	print("Random addresses built.\n")
 
